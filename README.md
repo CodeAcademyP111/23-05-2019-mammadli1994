@@ -8,7 +8,8 @@ http://www.tutorialspark.com/javascript/JavaScript_Form_Event.php
 
 Bir formunuz olacaq, içində şifrə və şifrə təsdiqi olmalıdır:
 
-şifrə ən azı 6 xarakter olmalıdı
+şifrə ən azı 6 xarakter olmalıdır
+
 şifrə təsdiqi şifrə ilə eyni olmalıdır
 
 
