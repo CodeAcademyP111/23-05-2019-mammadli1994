@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/lesson.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12">
+                <form id="registr">
+                    <div class="form-group">
+                        <label for="username">Adiniz: </label>
+                        <!-- oninvalid="this.setCustomValidity('Rica edirem adinizi yazin !!!')" -->
+                        <input type="text" id="username" data-msg="Zehmet olmasa bosh buraxmayin !!!" name="username" autocomplete="off" class="form-control required" placeholder="Adinizi daxil edin">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="">Sheher:</label>
+                        <select class="form-control" id="city">
+                            <option value="1">Sech</option>
+                            <option value="2">Baki</option>
+                            <option value="3">Sheki</option>
+                            <option  value="4">Xizi</option>
+                        </select>
+                    </div>
+                    <div class="form-group d-none">
+                        <label for="">Region</label>
+                        <select class="form-control" id="region">
+                                <option>Mashtaga</option>
+                                <option>Zabrat</option>
+                                <option>Novxani</option>
+                                <option>Ehmedli</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Soyadiniz: </label>
+                        <input type="text" id="surname" data-msg="Zehmet olmasa soyadinizi daxil edin !!!" name="surname" autocomplete="off" class="form-control required" placeholder="Soyadinizi daxil edin">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Parol: </label>
+                        <input type="password" id="password" data-msg="Zehmet olmasa parolunuzu daxil edin !!!" name="password" autocomplete="off" class="form-control required">
+                    </div>
+                    <button class="btn btn-success">Elave et</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/lesson.js"></script>
+</body>
+
+</html>
